@@ -16,13 +16,13 @@ body {
 .address_input{
     position: absolute;
     transform-origin: center;
-    transform: translate(-50%, -50%);
+    transform: translate(-70%, -50%);
     top: 50%;
     left: 50%;
 }
 .address_input > input {
         height: 50px;
-        width: 250px;
+        width: 750px;
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -35,7 +35,7 @@ body {
 .afficher_restaurants {
     position: absolute;
     transform-origin: center;
-    transform: translate(-50%, -50%);
+    transform: translate(100%, -280%);
     top: 70%;
     left: 50%;
 }
@@ -58,6 +58,8 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+
 
 @media screen and (max-width: 640px) {
 
@@ -98,6 +100,7 @@ body {
 
     .afficher_restaurants {
         position: absolute;
+        transform: translate(-50%, -50%);
         top: 70%;
     }
 
