@@ -112,12 +112,6 @@ body {
         border: none;
     }
 
-    .footer {
-        position: absolute;
-        bottom: 0;
-        width: 100%;
-    }
-
     .nav {
         height: 60px;
         display: flex;
