@@ -2,23 +2,32 @@
     width: 25%;
 }
 
-.footer{
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-}
+
 
 .display-4 {
     font-size: 20px;
 }
+@media screen and (min-width: 667) and (max-width: 768px) {
+    .container{
+        width: 100%;
+    }
 
-@media screen and (max-width: 640px) {
+
+}
+
+@media screen and (max-width: 667px) {
     .container {
         width: 100%;
     }
 
     .display-4 {
         font-size: 24px;
+    }
+
+    .footer{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
     }
 
 
