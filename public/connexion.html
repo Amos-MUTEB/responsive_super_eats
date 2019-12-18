@@ -8,7 +8,8 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="/css/accueil.css">
+    <link rel="stylesheet" href="/css/accueil.css">
+    <link rel="stylesheet" href="/css/connexion.css">
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -31,38 +32,39 @@
             </ul>
         </div>
     </nav>
-
+    
     <div class="jumbotron jumbotron-fluid">
         <div class="container text-center">
             <h1 class="display-5">S'inscrire gratuitement</h1>
         </div>
     </div>
-
-    <form class="container-fluid">
-        <div class="form-group">
-            <div class="row">
-                <div class="col">
-                    <input type="text" class="form-control" placeholder="First name">
+    <div class="container">
+        <form>
+            <div class="form-group">
+                <div class="row">
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="First name">
+                    </div>
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Last name">
+                    </div>
                 </div>
-                <div class="col">
-                    <input type="text" class="form-control" placeholder="Last name">
-                </div>
+                
             </div>
-            
-        </div>
+    
+            <div class="form-group">
+                <input type="password" placeholder="email Adresse" class="form-control">
+            </div>
+    
+            <div class="form-group">
+                <input type="password" placeholder="mot de passe" class="form-control">
+            </div>
+            <div class="container-fluid text-center">
+                <button type="submit" class="btn btn-outline-primary">S'inscrire</button>
+            </div>
+        </form>
 
-        <div class="form-group">
-            <input type="password" placeholder="email Adresse" class="form-control">
-        </div>
-
-        <div class="form-group">
-            <input type="password" placeholder="mot de passe" class="form-control">
-        </div>
-        <div class="container">
-            <button type="submit" class="btn btn-outline-primary">s'inscrire</button>
-        </div>
-    </form>
-
+    </div>    
 
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
