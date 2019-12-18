@@ -1,0 +1,16 @@
+.container {
+    width: 25%;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+@media screen and (max-width: 640px) {
+    .container {
+        width: 100%;
+    }
+
+}

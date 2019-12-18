@@ -19,8 +19,12 @@ app.get('/', (req, res) => {
     res.sendFile('/public/index.html');
 })
 
-app.get('/connexion', (req, res) => {
-    res.sendFile(path.join(__dirname, '/public/connexion.html'));
+app.get('/connecter', (req, res) => {
+    res.sendFile(path.join(__dirname, '/public/connecter.html'));
+})
+
+app.get('/inscription', (req, res) => {
+    res.sendFile(path.join(__dirname, '/public/inscription.html'))
 })
 
 app.listen(3344, () => {
